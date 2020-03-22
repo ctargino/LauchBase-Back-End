@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    {% block head %}
+    <title>Caio Targino</title>
+    {% endblock %}
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  
+  <body>
+    <header>
+      <div class="links">
+        <a href="/">Sobre</a>
+        <a href="/portfolio">Aulas</a>
+        <a href="/cv">Curriculum</a>
+      </div>
+    </header>
+
+    {% block content %}
+
+    {% endblock %}
+
+  </body>
+
+</html>

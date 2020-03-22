@@ -1,0 +1,37 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>Portfolio - Caio Targino</title>
+{% endblock %}
+
+{% block content %}
+
+  <div id="wrapper">
+    <h1>Aulas</h1>
+  </div>
+
+  <section class="cards">
+
+    {% for item in items %}
+      <div class="card" id="{{item.id}}">
+        <div class="card_image-container {{ 'featured-wrapper' if item.featured }} ">
+          <a><img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="Imagem de {{item.title}}"></a>        
+          {% if item.featured %}
+            <div class="featured">Featured</div>
+          {% endif %}
+        </div>
+        <div class="card_content">
+          <p>{{item.title}}</p>
+        </div>
+        <div class="card_info">
+          <p>{{item.duration}}</p>
+          <p class="card_price"><a href="https://www.youtube.com/channel/{{item.channel}}" target="_blank">{{item.price}}</a></p>
+        </div>
+      </div>
+    {% endfor %}
+     
+  </section>
+
+  <script src="/scripts.js"></script>
+   
+{% endblock%}

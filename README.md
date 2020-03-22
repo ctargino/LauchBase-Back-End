@@ -3,10 +3,10 @@
 Seguimento do curso Rocketseat - Launchbase, onde, neste modulo, se trabalhou o Back End.
 
 #Passos
-1. Instalação dos pacotes do NodeJs (npm init -y)
-2. Instalação dos pacotes do Express (npm install express)
-3. Instalação do nodemon em modo Desenvolvimento (npm install -D nodemon)
-4. Instalação do template engine "nunjunks" (npm install nunjunks)
+- [x] Instalação dos pacotes do NodeJs (npm init -y)
+- [x] Instalação dos pacotes do Express (npm install express)
+- [x] Instalação do nodemon em modo Desenvolvimento (npm install -D nodemon)
+- [x] Instalação do template engine "nunjunks" (npm install nunjunks)
 
 Edição do package.json: ""scripts": {
     "start": "nodemon server.js"

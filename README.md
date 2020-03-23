@@ -6,7 +6,7 @@ Seguimento do curso Rocketseat - Launchbase, onde, neste modulo, se trabalhou o 
 - [x] Instalação dos pacotes do NodeJs (npm init -y)
 - [x] Instalação dos pacotes do Express (npm install express)
 - [x] Instalação do nodemon em modo Desenvolvimento (npm install -D nodemon)
-- [x] Instalação do template engine "nunjuks" (npm install nunjuks)
+- [x] Instalação do template engine "nunjucks" (npm install nunjucks)
 
 Edição do package.json: 
 ```
